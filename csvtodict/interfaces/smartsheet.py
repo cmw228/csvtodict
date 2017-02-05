@@ -11,7 +11,7 @@ def _getSmartsheet(sid):
     smartsheet with the given smartsheet id
     """
     # Authentication header.
-    headers = {"Authorization": "Bearer 476bhdytlqjqx0si77ygdskitm"}
+    headers = {"Authorization": "Bearer <api key>"}
     url = 'https://api.smartsheet.com/2.0/sheets/%s' % sid
 
     # Restful API URI for requesting an entire smartsheet.
